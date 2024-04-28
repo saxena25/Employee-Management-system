@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Management System</h1>
+        <div class="head">
+            <label for="">Filter by Department: </label>
+            <select id="department">
+                <option value="select department">--Select Department--</option>
+                <option value="hr">Hr</option>
+                <option value="finance">Finance</option>
+                <option value="marketing">Marketing</option>
+                <option value="engineering">Engineering</option>
+                <option value="operations">Operations</option>
+            </select>
+
+            <label for="">Filter by Gender: </label>
+            <select id="gender">
+                <option value="select gender">--Select Gender--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label for="">Sort by Salary: </label>
+            <select id="salary">
+                <option value="select order">--Select Order--</option>
+                <option value="asc">low to High</option>
+                <option value="desc">High to low</option>
+            </select>
+        </div>
+        <div class="root">
+            <table>
+                <thead>
+                    <tr>
+                        <th>S.no</th>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Department</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <button class="prevBtn">Back</button>
+        <button class="nextBtn">Next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
